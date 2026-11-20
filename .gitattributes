@@ -1,0 +1,18 @@
+* text=auto
+
+*.bin binary
+*.wav binary
+*.mp3 binary
+*.m4a binary
+*.3gp binary
+*.ogg binary
+*.opus binary
+*.flac binary
+*.aiff binary
+*.wma binary
+*.mkv binary
+*.jar binary
+*.png binary
+*.jpg binary
+*.jks binary
+*.apk binary
