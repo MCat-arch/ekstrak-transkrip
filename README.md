@@ -58,6 +58,15 @@ Keputusan penting:
 
 ## Build
 
+Clone baru butuh model bawaan dulu (tidak di-commit, 31 MB):
+
+```powershell
+.\scripts\fetch-model.ps1
+```
+
+Script mengunduh `ggml-tiny-q5_1.bin` dari HuggingFace (commit dipatok) dan
+memverifikasi SHA-256. Setelah itu:
+
 ```powershell
 .\scripts\build.ps1            # debug APK
 .\scripts\build.ps1 -Release   # release APK
